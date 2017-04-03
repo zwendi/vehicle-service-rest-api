@@ -7,18 +7,18 @@ If you debug the program, it will start listen on: "localhost/demo/"
 Rest api supported:
 
 Get requests:
-localhost/demo/tasks
-localhost/demo/vehicles
-localhost/demo/records
+localhost/demo/tasks                                    
+localhost/demo/vehicles                               
+localhost/demo/records                             
 
-localhost/demo/task/{task_name}
-localhost/demo/vehicle/{vin_number}
-localhost/demo/record/{record_number}
+localhost/demo/task/{task_name}                               
+localhost/demo/vehicle/{vin_number}                               
+localhost/demo/record/{record_number}                        
 localhost/demo/record/v-record/{vin_number}      //getting all records associated with particular vehicles
 
 
 Put requests:
-localhost/vehicle/{vin_number}        //vin_number should be within the system already
+localhost/vehicle/{vin_number}        //vin_number should be within the system already  
 localhost/record/{record_number}      //record_number should be within the system already
 
 
